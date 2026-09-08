@@ -4,16 +4,7 @@ import React from "react";
 const Hoteldata = ({ item }) => {
   return (
     <div
-      className="flex rounded-2xl h-60 w-70 flex-col 
-    m-2
-    rounded-2xl
-    overflow-hidden 
-    transition-all
-    duration-300
-    hover:bg-gray-300
-    cursor-pointer
-   
-    "
+      className="flex rounded-2xl h-60 w-70 flex-col m-2 overflow-hidden transition-all duration-300 hover:bg-gray-300 cursor-pointer"
     >
       
       <span className="text-xs text-gray-500 font-semibold text-sm absolute  bg-gray-50  p-1 rounded-full m-2 dark:border-e-gray-300 ">

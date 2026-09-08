@@ -1,10 +1,9 @@
 "use client";
 import "leaflet/dist/leaflet.css";
 import Navbar from "@/components/Navbar";
-import Image from "next/image";
 import dynamic from "next/dynamic";
 import { useState } from "react";
-import { destinations, hotels } from "../assets/data.js";
+import { apiResponse } from "../assets/data.js";
 
 import Hoteldata from "@/components/Hoteldata.jsx";
 import Link from "next/link.js";
@@ -16,6 +15,7 @@ const HotelMap = dynamic(() => import("@/components/HotelMap.jsx"), {
 export default function Home() {
   const [where, setwhere] = useState("");
   const [destination, setdestination] = useState(false);
+  const { destinations, hotels } = apiResponse.data;
   return (
     <>
       <Navbar setdestination={setdestination} where={where} />
@@ -66,7 +66,7 @@ export default function Home() {
           })}
         </div>
       )}
-<div className="h-screen  w-full p-10 mt-50 dark:bg-gray-800 ">
+<div className="h-full  w-full p-10 mt-50 dark:bg-gray-800 ">
 <h1 className="text-4xl font-bold text-black dark:text-white">Our Hotels</h1>
       <div className="flex items-center justify-center gap-4 flex-wrap">
         {hotels.map((item, idx) => {

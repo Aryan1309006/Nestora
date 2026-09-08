@@ -455,3 +455,17 @@ export const room = [
 
   
 ];
+
+// Shape this data like the JSON returned by the listings API.
+export const apiResponse = {
+  success: true,
+  data: {
+    hotels,
+    destinations,
+    rooms: room,
+  },
+  meta: {
+    totalHotels: hotels.length,
+    totalRooms: room.length,
+  },
+};

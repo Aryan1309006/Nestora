@@ -1,6 +1,6 @@
 "use client";
 
-import { room } from "@/assets/data";
+import { apiResponse } from "@/assets/data";
 import Image from "next/image";
 
 import dynamic from "next/dynamic";
@@ -10,7 +10,7 @@ const HotelMap = dynamic(() => import("@/components/HotelMap"), {
 });
 
 export default function HotelDetails() {
-  const hotel = room[0];
+  const hotel = apiResponse.data.rooms[0];
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-8">

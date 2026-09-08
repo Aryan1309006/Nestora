@@ -1,6 +1,7 @@
 "use client"
 import React, { useEffect, useState } from "react";
 import { Booking } from "./Booking";
+import { Globe, HamburgerIcon, Home, Menu } from "lucide-react";
 
 const Navbar = ({setdestination,where}) => {
     const [show, setshow] = useState(true);
@@ -36,8 +37,8 @@ const Navbar = ({setdestination,where}) => {
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-10 text-lg font-medium">
-        <li className="list-none cursor-pointer hover:text-red-500">
-          🏠 Home
+        <li className="list-none cursor-pointer flex hover:text-red-500">
+          <Home scale={5}/> Home
         </li>
 
         <li className="list-none cursor-pointer hover:text-red-500">
@@ -56,11 +57,11 @@ const Navbar = ({setdestination,where}) => {
         </span>
 
         <button className="text-xl cursor-pointer">
-          🌐
+          <Globe/>
         </button>
 
         <button className="text-xl cursor-pointer">
-          🍔
+        <Menu/>
         </button>
       </div>
 
