@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏡 Nestora
 
-## Getting Started
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:EC4899&height=200&section=header&text=Nestora&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Find%20a%20place%20you'll%20love%20to%20stay&descAlignY=60&descSize=18" />
+</p>
 
-First, run the development server:
+<p align="center">
+  <b>A modern vacation rental and property discovery platform.</b>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<p align="center">
+  <a href="#-features">Features</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-project-structure">Structure</a> •
+  <a href="#-installation">Installation</a> •
+  <a href="#-screenshots">Screenshots</a>
+</p>
+
+---
+
+## 🌍 About Nestora
+
+**Nestora** is a modern property discovery and vacation rental platform designed to make finding the perfect stay simple and intuitive.
+
+Users can explore available properties through a clean and responsive interface while discovering essential information about each stay.
+
+The project focuses on building a polished real-world web application with a modern frontend architecture and responsive user experience.
+
+---
+
+## ✨ Features
+
+- 🏠 Browse available properties
+- 🔎 Discover and explore stays
+- 🖼️ Property image galleries
+- 📍 Property location information
+- 💰 Property pricing
+- 👤 User-focused interface
+- 📱 Fully responsive design
+- ⚡ Fast and modern Next.js application
+- 🎨 Clean and modern UI
+- 🧩 Reusable React components
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- **Next.js**
+- **React**
+- **JavaScript**
+- **HTML5**
+- **CSS**
+
+### Development Tools
+
+- **Git**
+- **GitHub**
+- **npm**
+- **ESLint**
+
+---
+
+## 📁 Project Structure
+
+```text
+nestora/
+│
+├── app/
+│   ├── page.*
+│   ├── layout.*
+│   └── ...
+│
+├── components/
+│   ├── ...
+│   └── ...
+│
+├── assets/
+│   └── ...
+│
+├── public/
+│   └── ...
+│
+├── package.json
+├── next.config.mjs
+├── jsconfig.json
+├── eslint.config.mjs
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📱 Responsive Design
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Nestora is designed to provide a consistent experience across:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 💻 Desktop
+- 💻 Laptop
+- 📱 Mobile
+- 📲 Tablet
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Project Goals
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The main goals of Nestora are:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🏠 Build a real-world property rental interface
+- ⚛️ Practice modern React and Next.js development
+- 🧩 Create reusable UI components
+- 📱 Implement responsive layouts
+- 🏗️ Improve frontend architecture
+- 🚀 Develop a scalable foundation for future backend integration
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔮 Future Improvements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The project can be extended with:
+
+- 🔐 User authentication
+- 👥 Role-based authorization
+- 🏠 Property listing management
+- 🔎 Advanced search and filters
+- 📅 Real-time booking availability
+- ❤️ Wishlist
+- ⭐ Reviews and ratings
+- 💳 Payment integration
+- ☁️ Cloud image uploads
+- 🗺️ Interactive maps
+- 👨‍💼 Host dashboard
+- 🛡️ Admin dashboard
+- 📧 Booking confirmation emails
+- 📊 Booking and revenue analytics
