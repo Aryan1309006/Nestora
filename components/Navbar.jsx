@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useState } from "react";
 import { Booking } from "./Booking";
 
@@ -30,7 +31,7 @@ const Navbar = ({setdestination,where}) => {
 
       {/* Logo */}
       <div className="text-2xl font-bold cursor-pointer">
-        Logo
+       <img src="/logo.png" alt="Logo" className="h-20 w-auto" />
       </div>
 
       {/* Desktop Menu */}

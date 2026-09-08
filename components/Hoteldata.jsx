@@ -10,8 +10,7 @@ const Hoteldata = ({ item }) => {
     overflow-hidden 
     transition-all
     duration-300
-    hover:scale-105
-    hover:shadow-2xl
+    hover:bg-gray-300
     cursor-pointer
    
     "

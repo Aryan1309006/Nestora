@@ -279,3 +279,179 @@ export const destinations = [
     icon: "🌊",
   },
 ];
+
+
+export const room = [
+  {
+    id: 1,
+    title: "Coastal 2BHK Retreat + Fast Wi-Fi + 55' Smart TV",
+    shortTitle: "Apartment in Pune City",
+    location: "Pune City, India",
+    city: "Pune",
+    state: "Maharashtra",
+    country: "India",
+
+    latitude: 18.5204,
+    longitude: 73.8567,
+
+    price: 10000,
+    cleaningFee: 1200,
+    serviceFee: 850,
+    totalPrice: 12050,
+
+    duration: "2 nights",
+
+    rating: 4.91,
+    reviews: 23,
+
+    host: {
+      name: "OSI Apartments",
+      joined: "8 years hosting",
+      superhost: false,
+      hostImage:
+        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&auto=format&fit=crop",
+    },
+
+    guests: 6,
+    bedrooms: 2,
+    beds: 3,
+    bathrooms: 2,
+
+    type: "Entire serviced apartment",
+    category: "Apartment",
+
+    tag: "Guest favourite",
+
+    images: [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=1200&auto=format&fit=crop",
+    ],
+
+    coverImage:
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200&auto=format&fit=crop",
+
+    description:
+      "You’ll feel it the moment you walk in — the calm, the clean lines, the sense that this space was made for your comfort. This newly renovated 2BHK wraps you in modern style while offering mesmerizing city views. Perfect for work trips or a quiet city escape.",
+
+    highlights: [
+      "Stunning city views",
+      "55 inch Smart TV",
+      "Fast Wi-Fi",
+      "Dedicated workspace",
+      "Air conditioning",
+      "Modern interiors",
+    ],
+
+    amenities: [
+      {
+        name: "Kitchen",
+        icon: "Utensils",
+      },
+      {
+        name: "Wifi",
+        icon: "Wifi",
+      },
+      {
+        name: "Dedicated workspace",
+        icon: "Laptop",
+      },
+      {
+        name: "Free parking on premises",
+        icon: "Car",
+      },
+      {
+        name: "TV",
+        icon: "Tv",
+      },
+      {
+        name: "Lift",
+        icon: "Building",
+      },
+      {
+        name: "Washing machine",
+        icon: "WashingMachine",
+      },
+      {
+        name: "Exterior security cameras",
+        icon: "Camera",
+      },
+      {
+        name: "Smoke alarm",
+        icon: "Bell",
+      },
+      {
+        name: "Air conditioning",
+        icon: "Snowflake",
+      },
+    ],
+
+    sleepingArrangement: [
+      {
+        room: "Bedroom 1",
+        bed: "1 queen bed",
+      },
+      {
+        room: "Bedroom 2",
+        bed: "1 double bed",
+      },
+      {
+        room: "Living Room",
+        bed: "1 sofa bed",
+      },
+    ],
+
+    rules: {
+      checkIn: "1:00 PM",
+      checkOut: "11:00 AM",
+      petsAllowed: false,
+      smokingAllowed: false,
+      partiesAllowed: false,
+    },
+
+    availability: {
+      from: "2026-06-05",
+      to: "2026-06-07",
+    },
+
+    ratingsBreakdown: {
+      cleanliness: 4.9,
+      accuracy: 5.0,
+      checkIn: 4.8,
+      communication: 4.8,
+      location: 4.6,
+      value: 4.9,
+    },
+
+    reviewsData: [
+      {
+        id: 1,
+        name: "Pratham Ganesh",
+        date: "1 week ago",
+        rating: 5,
+        comment:
+          "It was a wonderful experience. Simple and satisfying setup in the house.",
+      },
+      {
+        id: 2,
+        name: "Aalisha",
+        date: "April 2026",
+        rating: 5,
+        comment:
+          "The place was just as shown in the photos and had all the basic amenities.",
+      },
+      {
+        id: 3,
+        name: "Tanul",
+        date: "April 2026",
+        rating: 5,
+        comment:
+          "Clean, comfortable and exactly as described. Great location too.",
+      },
+    ],
+  },
+
+  
+];

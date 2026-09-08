@@ -2,12 +2,16 @@
 import "leaflet/dist/leaflet.css";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import { useState } from "react";
 import { destinations, hotels } from "../assets/data.js";
 
 import Hoteldata from "@/components/Hoteldata.jsx";
 import Link from "next/link.js";
-import HotelMap from "@/components/HotelMap.jsx";
+
+const HotelMap = dynamic(() => import("@/components/HotelMap.jsx"), {
+  ssr: false,
+});
 
 export default function Home() {
   const [where, setwhere] = useState("");
@@ -69,7 +73,8 @@ export default function Home() {
           return (
             <div key={idx}>
               {" "}
-              <Link href={`/hotels/${item.id}`}>
+              {/* <Link href={`/hotels/${item.id}`}> */}
+              <Link href={`/hotels/room`}>
                 <Hoteldata item={item} />
               </Link>
             </div>
